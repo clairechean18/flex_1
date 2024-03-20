@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, nav, main, footer {
+    flex: 0 0 auto;
+}
+
+.header {
+    height: 100px;
+}
+
+main {
+    height: 58vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+.borderLine {
+    border: 1px solid black;
+}
